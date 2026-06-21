@@ -6,7 +6,7 @@ An AI shopping assistant that aggregates product data from multiple websites and
 ## Tech Stack
 - Frontend: React + Tailwind CSS
 - Backend: FastAPI
-- Database: PostgreSQL
+- Database: MySQL
 - Web Scraping: BeautifulSoup + Selenium
 - AI: spaCy + Sentence Transformers
 - Semantic Search: FAISS/ChromaDB
