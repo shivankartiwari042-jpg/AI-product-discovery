@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String, DateTime, func
 from app.db.database import Base
 
 
@@ -21,4 +21,9 @@ class User(Base):
     password_hash = Column(
         String(255),
         nullable=False
+    )
+
+    created_at = Column(
+        DateTime,
+        server_default=func.now()
     )
